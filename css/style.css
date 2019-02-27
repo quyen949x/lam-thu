@@ -1,0 +1,19 @@
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.col-20{
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+.col-80{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  } 
